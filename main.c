@@ -9,7 +9,7 @@ typedef struct {
     float durata;
 } Film;
 
-static char *const filename = "catalogo.dat";
+static char *const filename = "../catalogo.dat";
 
 int file_esiste(const char *filename) {
     FILE *f = fopen(filename, "r");
